@@ -90,15 +90,23 @@
 
 ## 🚀 Featured Portfolio Projects
 
-### 🧠 ARC Prize 2025 Hybrid Solver (for Kaggle Competition)
+### 🧠 ARC Prize 2025 Hybrid Solver (for ARC-AGI2 Benchmark)
 
 **Tech Stack**: Python, PyTorch, custom DSL, program synthesis
 
-- Hybrid inference pipeline tailored for Kaggle's “ARC Prize 2025”
-- Designed and implemented an in-house DSL runtime/interpreter to power rule-based reasoning
-- Combines rule-based DSL execution with neural program synthesis for task solving
-- Built a dedicated dataset generator and validation flow to secure reproducible ARC training data
-- Unified CLI workflow covering data generation, validation, inference, and log management
+- **ARC Prize 2025 (ARC-AGI2)** benchmark hybrid solver
+- Integrates rule-based DSL runtime with neural program-synthesis model, supporting end-to-end workflows for data generation, training, and inference
+- **DSL Runtime**: Fully custom DSL engine (parser, interpreter, executor)
+  - 89+ drawing and transformation commands defined
+  - Handles spatial integrity, collisions, and color management
+- **Neural Inference (with Rule-based Assistance)**: Neural program synthesis as primary method, with rule-based object matching for partial program generation as assistance
+  - Beam search and temperature control for candidate generation
+  - DSL runtime evaluates each candidate and scores outputs
+- **Extended Dataset Generation Pipeline**: Probabilistic rules for synthetic data generation
+  - Balances randomness and constraints (difficulty, grid size, color distribution)
+  - DataPairs (DSL + grid pairs) stored in compressed format and streamed
+- **End-to-End CLI**: Unified command-line interface for data generation, training, and verification
+- Reproducible workflow with experiment management, logging, and visualization tools
 
 📄 Project → [arc-agi2-arc2025](https://github.com/take-works-tech/arc-agi2-arc2025)
 
@@ -242,9 +250,6 @@ Broad expertise spanning Web, 3D, AI, and engineering
 
 ### 🌐 Full‑Stack Web Development
 End‑to‑end implementation from frontend (React/Next.js) to backend (Python/Django) and AI integration
-
-### 🚀 Edge & Cloud Integrated Development
-Seamless delivery from edge devices (Jetson Nano/Raspberry Pi) to cloud‑based SaaS applications—requirements gathering, design, implementation, and deployment
 
 ### 💼 Commercial Application Engineering
 Hands‑on experience building production‑grade SaaS applications with authentication, payment processing, and API management
