@@ -1,4 +1,4 @@
-# 🧑‍💻 Takemura
+# 🧑‍💻 Take
 
 **AI, 3D, Python, and Web Development** after completing a Master's degree in Mechanical Engineering.
 
