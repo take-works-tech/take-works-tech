@@ -1,4 +1,4 @@
-# 🧑‍💻 Takemura
+# 🧑‍💻 Take
 
 ---
 
