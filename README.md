@@ -189,21 +189,6 @@
 
 ---
 
-### 🎮 UEFN Personal Game Development
-
-**Tech Stack**: Blender, Substance 3D Painter, Verse, UEFN
-
-- Comprehensive responsibility for 3D modeling, animation, and programming
-- Interactive experience development for Fortnite (in progress)
-
-🎞️ Video ↓
-
-[![Demo UEFN](https://img.youtube.com/vi/PbdRH_HzAqM/0.jpg)](https://www.youtube.com/watch?v=PbdRH_HzAqM)
-
-<img src="assets/UEFN.gif" alt="UEFN" style="max-width: 400px; height: auto;">
-
----
-
 ### 🖼️ Image Recognition Model + Image Processing (C++, Python)
 
 **Tech Stack**: C++17, Python, pybind11, Eigen3, MediaPipe
