@@ -184,21 +184,6 @@
 
 ---
 
-### 🎮 UEFN 個人ゲーム制作
-
-**技術スタック**: Blender, Substance 3D Painter, Verse, UEFN
-
-- 3D モデリング、アニメーション、プログラミングを一貫して担当
-- Fortnite 向けのインタラクティブ体験を開発中
-
-🎞️ Video ↓
-
-[![Demo UEFN](https://img.youtube.com/vi/PbdRH_HzAqM/0.jpg)](https://www.youtube.com/watch?v=PbdRH_HzAqM)
-
-<img src="assets/UEFN.gif" alt="UEFN" style="max-width: 400px; height: auto;">
-
----
-
 ### 🖼️ 画像認識モデル + 画像処理（C++, Python）
 
 **技術スタック**: C++17, Python, pybind11, Eigen3, MediaPipe
